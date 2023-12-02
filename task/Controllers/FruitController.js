@@ -62,7 +62,7 @@ const update = (position = -1, name) => {
  *
  * @hint - Gunakan method splice
  */
-function destroy(position = -1) {
+const destroy = (position = -1) => {
   if (position < 0) return console.log("Index posisi harus diisi !");
 
   fruits.splice(position, 1);
