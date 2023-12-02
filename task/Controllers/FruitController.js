@@ -28,7 +28,7 @@ const index = () => displayFruits();
  * @hint - Gunakan method push
  */
 const store = (name) => {
-  if (!name) return "Parameter harus diisi !";
+  if (!name) return console.log("Parameter harus diisi !");
 
   fruits.push(name);
 
