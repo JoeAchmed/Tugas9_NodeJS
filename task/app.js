@@ -6,7 +6,7 @@
  * @hint - Gunakan Destructing Object
  */
 
-var importHere = "";
+import { index, store, update, destroy } from "./Controllers/FruitController.js";
 
 /**
  * NOTES:
